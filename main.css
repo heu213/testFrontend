@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-width: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+.container-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 130px;
+    height: 100%;
+    background-color: #191718;
+}
+
+.item {
+
+    line-height: 19px;
+    font-size: 11px;
+    color: #AAAAAA;
+    padding: 14px 16px;
+}
+
+.item:hover {
+    color: #FFFFFF;
+    background-color: #5C5C5C;
+    transition: 0.8s;
+}
+
+.container-content {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 130px);
+    top: 0;
+    left: 130px;
+}
+
+.sibarHr {
+    border: solid 1px #5C5C5C;
+}
+
+/*Content*/
+.contentImg {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contentImg img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.content {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-text {
+    background-color: #EFEFEF;
+}
+
+.textHeading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.textContent {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    padding-bottom: 30px;
+    width: 668px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #000000;
+
+}
+.content-doc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+
+.cssContent {
+    flex: 3;
+    border-right: 40px solid transparent;
+}
+.htmlContent {
+    flex: 3;
+    border-right: 40px solid transparent;
+}
+.urlContent {
+    flex: 3;
+}
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+
+}
+img.imgDoc {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    float: left;
+}
+.content-footer {
+    position: fixed;
+    font-weight: 400;
+    font-size: 11px;
+    width: calc(100% - 130px);
+    left: 130px;
+    padding: 15px;
+    bottom: 0;
+    border-top:1px solid #DEDEDE ;
+}
+.footerText{
+    margin-left:110px ;
+}
